@@ -1,0 +1,23 @@
+html, body{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    max-height: 100%;
+    position:relative;
+    overflow: hidden;
+}
+
+#carouselExampleControls {
+    height: 93vh;
+}
+
+.carousel-inner .carousel-item img {
+    object-fit: cover;
+    height: 93vh;
+}
+
+.carousel-control-prev {
+    width: 4%;
+}
+
+.carousel-control-next {
+    width: 4%;
+}
